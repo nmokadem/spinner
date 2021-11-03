@@ -15,6 +15,6 @@ for (let i = 100; i < 10000; i += 900) {
 
   setTimeout(() => {
     // Need to escape the backslash since it's a special character.
-    process.stdout.write('\r\\   '); 
+    process.stdout.write('\r\\   ');
   }, i + 600);
 }
